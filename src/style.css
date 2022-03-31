@@ -1,0 +1,34 @@
+body {
+    position: absolute;
+    text-align: center;
+}
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 2px solid lightsteelblue;
+    border-radius: 20%;
+    
+}
+button {
+    width: 90px;
+    height: 80px;
+    font-size: 30px;
+    background-color: #eeeeee;;
+    color: black;
+    
+    
+}
+h2 {
+    color: black;
+    margin: 0 50px;
+    font-size: 30px;
+}
+#inc {
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 20%;
+}
+#dec {
+    border-bottom-left-radius: 20%;
+    border-top-left-radius: 20%;
+}

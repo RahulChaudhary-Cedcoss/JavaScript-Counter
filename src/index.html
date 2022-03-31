@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> JS- Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    
+        <button onclick="decrement()" id="dec">-</button>
+    
+        <h2 id="counting"></h2>
+        <button onclick="increment()" id="inc">+</button>
+        </div>
+        <script>
+        var a = 3;
+    document.getElementById("counting").innerHTML = a;
+    
+    function decrement() {
+        a = a - 1;
+        document.getElementById("counting").innerHTML = a;
+    }
+    function increment() {
+        a = a + 1;
+        document.getElementById("counting").innerHTML = a;
+    }
+    </script>
+</body>
+</html>
